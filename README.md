@@ -16,3 +16,25 @@
 - git clone https://github.com/cosmos/cosmos-sdk
 - cd cosmos-sdk
 - make build
+
+#### SimApp Setup
+
+Initialize SimApp application. The initialization creates the genesis block and an initial chain state:
+- ./simd init demo
+
+##### Prepare Accounts
+
+To list keys:
+- ./simd keys list
+To Add keys
+- sudo ./simd keys add [keyname]
+
+List of keys:
+- Validator
+  - sudo ./simd keys add validator
+- Accounts
+  - sudo ./simd keys add account1
+  - sudo ./simd keys add account2
+  - sudo ./simd keys add account3
+  - sudo ./simd keys add account4
+  - sudo ./simd keys add account5
