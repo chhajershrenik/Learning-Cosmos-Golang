@@ -26,6 +26,7 @@ Initialize SimApp application. The initialization creates the genesis block and 
 
 To list keys:
 - ./simd keys list
+
 To Add keys
 - ./simd keys add [keyname]
 
